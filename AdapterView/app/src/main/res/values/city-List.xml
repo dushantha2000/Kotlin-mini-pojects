@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>Kandy</item>
+        <item>Colombo</item>
+        <item>Matara</item>
+        <item>Galle</item>
+    </string-array>
+</resources>

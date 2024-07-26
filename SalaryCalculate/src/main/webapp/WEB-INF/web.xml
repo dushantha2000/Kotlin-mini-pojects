@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>SalaryCalculate</display-name>
+  <welcome-file-list>
+    
+    <welcome-file>salary-input.jsp</welcome-file>
+    
+  </welcome-file-list> 
+  <servlet>
+    <description></description>
+    <display-name>CalculateGrossSalaryServlet</display-name>
+    <servlet-name>CalculateGrossSalaryServlet</servlet-name>
+    <servlet-class>servlet.CalculateGrossSalaryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalculateGrossSalaryServlet</servlet-name>
+    <url-pattern>/CalculateGrossSalaryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CalculateTaxServlet</display-name>
+    <servlet-name>CalculateTaxServlet</servlet-name>
+    <servlet-class>servlet.CalculateTaxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalculateTaxServlet</servlet-name>
+    <url-pattern>/CalculateTaxServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
